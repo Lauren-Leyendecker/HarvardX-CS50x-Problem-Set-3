@@ -209,7 +209,7 @@ void print_winner(void)
         int no_edges = 0;
         for (int j = 0; j < candidate_count; j++)
         {
-            //if there are no arrows pointing towards candidate i from candidate j, the no_edges increases by one
+            //if there are no arrows pointing towards candidate i from candidate j, then no_edges increases by one
             if (!locked[j][i])
             {
                 no_edges++;
